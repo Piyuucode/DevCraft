@@ -739,7 +739,7 @@ nav .btn:hover {
 
   @media (max-width: 768px) {
     .content-welcome {
-        height: 55vh;
+        height: fit-content;
     }
 
     .image-profil img {
@@ -962,11 +962,11 @@ nav .btn:hover {
 
     figcaption {
         font-size: small;
-        text-align: left;
+        text-align: center;
     }
 
     .profil-description {
-        margin-top: 20%;
+        margin-top: 10%;
     }
 
     .profil-description h2 {
@@ -1048,6 +1048,8 @@ nav .btn:hover {
     }
 
     .project-card-right .project-image {
-        margin-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
     }
   }
